@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+      <meta charset="utf-8">
+	<title>PZRPG.RU</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="PZRPG.RU - CIS server" />
+	<meta name="keywords" content="PZRPG.RU, pzrpg, roleplay, projectzomboid, pz, server" />
+	<meta name="author" content="DaQ" />
+	<meta property="og:type" content="site" />
+	<meta property="og:title" content="PZRPG.RU" />
+	<meta property="og:description" content="PZRPG.RU - CIS server" />
+	<meta property="og:url" content="https://PZRPG.RU" />
+	<meta property="og:image" content="assets/images/pic2.jpg" />
+	<meta itemprop="name" content="PZRPG.RU" />
+	<meta itemprop="description" content="PZRPG.RU - CIS server" />
+	<meta itemprop="image" content="assets/images/pic2.jpg" />
+      <meta name="robots" content="noodp">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	  
+      <link rel="shortcut icon" href="pic2.jpg" type="image/x-icon" >
+	  <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">	
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:300,400" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
+
+      <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      
+  </head>
+
+  <body>
+
+      <div id="main">
+
+		  <div id="page-loader">
+			  <div class="spinner-container">
+				  <div class="css-spinner"></div>
+			  </div>
+		  </div>
+            
+		  <section id="hero" class="hero hero-1">
+
+			  <div class="front-content page-enter-animated">
+				<div class="controls show"><input style="width:100px;" class="volume-button input-range" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)" type="range" id="vol-control" value="100" min="0" max="100" step="1"><i onclick="pMusic();" class="pause-button ti-control-pause"></i></div>
+				<div class="support">
+					<script type="application/javascript">window.addEventListener('message',function(e){if(e.data.uid&&e.data.type==='sizeUpdate'){var i = document.querySelector('iframe[name="'+e.data.uid+'"]');i.style.width = e.data.payload.width;i.style.height = e.data.payload.height;}});</script><iframe src="https://cdn.battlemetrics.com/b/horizontal500x80px/16551543.html?foreground=%23EEEEEE&background=%23111111&lines=%23333333&linkColor=%231185ec&chartColor=%23FF0700" frameborder=0 style="border:0" name="tieda"></iframe>
+				 </div>
+				  <div class="container-mid">
+				  
+					  <div class="cycle-wrapper">
+					  
+								<div id="cycle">
+									<div class="slide">
+										<span class="avatar"><img src="1.png" alt="" /></span>
+									</div>
+								</div>
+						  
+								<div class="cycle-wrapper">
+								  <div id="cycle">
+									<div><h1></h1></div>
+									<div><h1></h1></div>
+									<div><h1></h1></div>
+									  <!-- <a target="_blank" href="https://steamcommunity.com/my/profile">1</a><br> -->
+									  <!-- <a style="color:white;">you are listening to: </a><br> -->
+									  
+									  <!-- <a style="color:white;" target="_blank" href="https://soundcloud.com/tomthemailman/my-storm">tom the mail man</a>									   -->
+									  </a>
+								  </div>
+								</div>
+						  
+					  </div>
+
+
+				  	<div id="social" class="content cycle-wrapper">
+						<ul class="social-icons">
+							<li><a data-placement="bottom" title="Список модов" style="border-radius:13px;" class="fab fa-steam" target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2820980970"><div class="overlay"></div></a></li>
+							<li><a data-placement="bottom" title="Discord проекта" style="color:#1f6698;border-radius:13px;" class="fab fa-discord" href="https://discord.com/invite/6uqCcmv9FJ"><div class="overlay"></div></a></li>
+							<li><a data-placement="bottom" title="Утиный телеграм" style="color:#1f6698;border-radius:13px;" class="fab fa-telegram" target="_blank" href="https://t.me/imdaq/"><div class="overlay"></div></a></li>
+							
+							<br><br><br>
+							<h3><a style="color:rgb(204, 134, 5);">Карта сервера</a><br></h3>
+							<li><a data-placement="bottom" title="Map" style="border-radius:13px;" class="fas fa-map" href="map"><div class="overlay"></div></a></li>
+						</ul>
+					</div>
+				  
+				  </div>
+
+
+			  </div>
+
+			  <div class="background-content page-enter-animated">
+
+				  <div class="level-1">
+					<section class="video-container">
+						<video src="https://fv20.failiem.lv/down.php?i=tbn8bd2kg&PHPSESSID=d1d4251f9b0589e07ba96abb03a4b86ef397e0ef&pv=1&.mp4" autoplay loop playsinline muted></video>
+					</section>
+					  <!-- <div id="canvas"><canvas class="bg-effect layer" data-depth="0.2"></canvas></div> -->
+					  
+				  </div>	
+
+			  </div>
+		  </section>
+		</div>
+		
+		<audio id="audio" preload autoplay loop> <source type="audio/mp4" src="https://fv20.failiem.lv/down.php?i=tbn8bd2kg&PHPSESSID=d1d4251f9b0589e07ba96abb03a4b86ef397e0ef&pv=1&.mp4" media="(orientation:landscape)">
+		
+		<script type="text/javascript">
+		var vid = document.getElementById("audio"); 
+
+		function pMusic() { 
+			vid.paused ? vid.play() : vid.pause();
+		} 
+		window.SetVolume = function(val)
+		{
+			var player = document.getElementById('audio');
+			player.volume = val / 100;
+		}
+
+		var audio = document.querySelector('audio');
+		window.addEventListener('touchstart', function audioStart() {
+		  audio.play();
+		  this.removeEventListener('touchstart', audioStart);
+		});
+		</script>
+      <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+
+</html>
