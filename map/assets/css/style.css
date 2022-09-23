@@ -1044,9 +1044,9 @@ body.is-mobile.merge-true .overlay .container-mid
 
     position: absolute;
     z-index: 101;
-    bottom: 20px;
+    bottom: 1200px;
 
-    width: 20px;
+    width: 25px;
 
     cursor: pointer;
 
